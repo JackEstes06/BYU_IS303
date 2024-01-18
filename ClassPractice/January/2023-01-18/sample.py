@@ -6,6 +6,7 @@
 sFirstName = input("Enter your first name: ")
 sLastName = input("Enter your last name: ")
 iAge = input("Enter your age in whole number years (ie. 24): ")
+# Verify that the age input is an integer
 while True:
     try:
         iAge = int(input("Enter your age in whole number years (ie. 24): "))
