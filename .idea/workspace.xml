@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2eeb11a-40fb-417f-965b-2c06c7569a5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw/A1-Conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IS303.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IS303.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-01-18/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassPractice/January/2023-01-18/sample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +45,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jackestes/Documents/Current Semester/IS303",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/jacke/IdeaProjects/BYU_IS303",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
