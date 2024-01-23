@@ -5,7 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2eeb11a-40fb-417f-965b-2c06c7569a5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-01-18/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassPractice/January/2023-01-18/sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IS303.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/.idea/ClassPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-01-18/sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/4.4 escape characters and functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/5.2 arithmetic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/5.3 rounding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/5.4 assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/5.5 comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/6.1-2 if statement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/6.3-4 else elif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Answers/6.5 logical operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/4.4 escape characters and functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/5.2 arithmetic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/5.3 rounding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/5.4 assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/5.5 comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/6.1-2 if statement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/6.3-4 else elif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2023-09-18 Practice/6.5 logical operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2024-01-16/2023-09-13 Practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2024-01-16/2024-01-16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassPractice/January/2024-01-16/test download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/PythonTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/.idea/ReadingPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/Ch_3_Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingPractice/Practice_3.1/pracitce.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,25 +75,28 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2andfSfOUFCLy4MC6CKOxtLT34m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.2024-01-16.executor": "Run",
-    "Python.sample.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jackestes/Documents/Current Semester/IS303",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2024-01-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jackestes/Documents/Current Semester/IS303&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ClassPractice/January/2024-01-16" />
