@@ -5,7 +5,7 @@
 # Grab input from user -> some inputs are type-casted to data types wanted
 sFirstName = input("Enter your first name: ")
 sLastName = input("Enter your last name: ")
-iAge = input("Enter your age in whole number years (ie. 24): ")
+iAge = 0
 # Verify that the age input is an integer
 while True:
     try:
