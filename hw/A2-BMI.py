@@ -23,6 +23,9 @@ while True:
 while True:
     try:
         fHeightInInches = float(input("Enter the inches portion of your height: "))
+        if fHeightInInches > 12:
+            print("Too many inches, try something less than 12")
+            continue
         break
     except ValueError:
         print("You entered a non-numeric value, try again.")
