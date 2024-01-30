@@ -20,10 +20,22 @@ while sCondition == "Y":
     sCondition = input("Do you want to enter a grade? ").upper()[0]
 
 # Output avg grades w/ & w/o lowest grade
-print("Lowest grade was {lowest}. Avg w/ lowest grade included was {avg}."
-      .format(lowest=iLowGrade, avg=round(iTotal/iNumGrades, 2)))
+fAvg = round(iTotal/iNumGrades, 2)
+print("\nLowest grade was {lowest}. Avg w/ lowest grade included was {avg}.".format(
+    lowest=iLowGrade,
+    avg=fAvg
+))
 # Remove the lowest grade
 iTotal -= iLowGrade
 iNumGrades -= 1
-print("Avg grade was after dropping the lowest was {avg}."
-      .format(avg=round(iTotal/iNumGrades, 2)))
+fAvg = round(iTotal/iNumGrades, 2)
+print("Avg grade was after dropping the lowest was {avg}.".format(
+    avg=fAvg
+))
+# Output avg grade letter
+if fAvg >= 90:
+    print("Avg grade: A")
+elif fAvg >= 80:
+    print("Avg grade: B")
+else:
+    print("Avg grade: C")
