@@ -28,7 +28,7 @@ fOverallGPA = float(input("What is your current overall GPA? "))
 fLast30GPA = float(input("What is the GPA from your most recent 30 credits? "))
 iEssayScore = int(input("What will you score on the IS application essays (whole numbers - scored 0 to 4)? "))
 
-# Calculate weighted application GPA
+# Calculate weighted application GPA & output to user
 fApplicationGPA = round(
         (gpaValues.get(sAcc200LetterGrade) * fAcc200Weight)
         + (gpaValues.get(sIS201LetterGrade) * fIS201Weight)
