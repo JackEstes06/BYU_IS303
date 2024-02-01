@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2eeb11a-40fb-417f-965b-2c06c7569a5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ClassPractice/February/2024-02-01/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/A3-CoreGPA.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/A3-CoreGPA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
