@@ -24,6 +24,7 @@ for games in range(0, totalHomeGames):
     awayTeam = input(f"Enter the name of the away team for game {games+1}: ")
     homeTeamScore = random.randrange(1, 15)
     awayTeamScore = random.randrange(1, 15)
+    # We hate ties, force someone to win
     while homeTeamScore == awayTeamScore:
         homeTeamScore = random.randrange(1, 15)
         awayTeamScore = random.randrange(1, 15)
