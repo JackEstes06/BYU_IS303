@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cf90fb-4fcb-49e0-8901-8a2d252a1fe8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ClassPractice/February/2024-02-13/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/A5-WomenSoccer-OOP1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassPractice/February/2024-02-08/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassPractice/February/2024-02-08/practice.py" afterDir="false" />
     </list>
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.A5-WomenSoccer-OOP1.executor": "Run",
     "Python.practice.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",

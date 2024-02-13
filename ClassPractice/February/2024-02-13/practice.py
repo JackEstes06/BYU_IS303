@@ -1,11 +1,11 @@
 # Jack Estes
 # BYU IS303 Section 3
-# Object-Oriented Programming
+# Object-Oriented Programming continued
 
-class SoccerTeam():
+class SoccerTeam:
     # Constructor
     def __init__(self):
-        self.teamName = "Team"
+        self.teamName = ""
         self.numWins = 0
         self.numLosses = 0
         self.winLossRatio = 0.0
