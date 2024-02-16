@@ -32,7 +32,7 @@ for games in range(0, totalHomeGames):
         homeGamesWon += 1
     print(f"{homeTeam} score: {homeTeamScore} {awayTeam} score: {awayTeamScore}")
 
-# If the home team never plays, there will be a x/0 error. To avoid this we exit the program when totalHomeGames = 0
+# If the home team never plays, there will be an x/0 error. To avoid this we exit the program when totalHomeGames = 0
 if totalHomeGames == 0:
     print("Home team didn't play this season. Try again with a team that actually plays lol.")
     exit()
