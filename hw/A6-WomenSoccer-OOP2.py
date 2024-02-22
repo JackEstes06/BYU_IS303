@@ -4,9 +4,10 @@
 
 import random
 
+
 class SoccerTeam:
     # Constructor w/ default values if not given in the OG instantiation
-    def __init__(self, teamName="", wins=0, losses=0, games = 0, gf=0, ga=0):
+    def __init__(self, teamName="", wins=0, losses=0, games=0, gf=0, ga=0):
         self.teamName = teamName
         self.wins = wins
         self.losses = losses
@@ -49,7 +50,7 @@ class SoccerTeam:
             self.winLossRatio = 1.0
         else:
             self.winLossRatio = self.wins / (self.wins + self.losses)
-        return round(self.winLossRatio,2)
+        return round(self.winLossRatio, 2)
 
 
 # Instantiate Vars
@@ -90,4 +91,3 @@ if totalHomeGames == 0:
     exit()
 
 print(f'\n{team1.season_status()}')
-
