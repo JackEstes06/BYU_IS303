@@ -1,6 +1,6 @@
 # Jack Estes
 # BYU IS303 Section 3
-# 2/26/24
+# 2/16/24
 
 class SoccerTeam:
     # Constructor w/ default values if not given in the OG instantiation

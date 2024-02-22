@@ -1,47 +1,50 @@
 # Jack Estes
 # BYU IS303 Section 3
-# Class Practice
+# Class Practice - Inheritance
 
-class Coach:
-    def __init__(self, name="", wins=0, losses=0):
-        self.name = name
-        self.career_wins = wins
-        self.career_losses = losses
+# Program that tracks a student & their faculty mentor
+# Student: fname, lname, gpa
+# Faculty: fname, lname, deptName
 
-    def displayCoachInfo(self):
-        return f'{self.name} with a {self.career_wins}-{self.career_losses} career record'
+# Base class for peoples to instantiate later
+class Person:
+    def __init__(self, fName="", lName="", dog=""):
+        self.fName = fName
+        self.lName = lName
+        # private parameter, not every person has a dog but could
+        self.__dog = dog
 
-
-class SoccerTeam:
-    def __init__(self, name="", wins=0, losses=0, coach=Coach()):
-        self.teamName = name
-        self.wins = wins
-        self.losses = losses
-        self.win_loss_pct = self.calc_win_loss_ratio()
-        self.coach = coach
-
-    # Display team info
-    def displayTeamInfo(self):
-        return f'{self.teamName} has a record of {self.wins}-{self.losses} coached by {self.coach.displayCoachInfo()}'
-
-    # Add a win to SoccerTeam.wins
-    def new_win(self):
-        self.wins += 1
-
-    # Add a loss to SoccerTeam.losses
-    def new_loss(self):
-        self.losses += 1
-
-    # Calculate the SoccerTeam's W/L Ratio
-    def calc_win_loss_ratio(self):
-        if self.losses == 0:
-            self.winLossRatio = 1.0
-        else:
-            self.winLossRatio = self.wins / (self.wins + self.losses)
-        return round(self.winLossRatio,2)
+    def personInfo(self):
+        return f'{self.fName} {self.lName}'
 
 
-coach1 = Coach("Mr. T", 100, 0)
-team1 = SoccerTeam("BYU", 10, 0, coach1)
-print(team1.displayTeamInfo())
+# Student inherits from person
+class Student(Person):
+    def __init__(self, fName="", lName="", gpa=0.0):
+        super().__init__(fName, lName)
+        self.gpa = gpa
 
+    def studentInfo(self):
+        return f'{self.personInfo()} has a {self.gpa} gpa'
+
+
+# Faculty inherits from person
+class Faculty(Person):
+    def __init__(self, fName="", lName="", deptName=""):
+        super().__init__(fName, lName)
+        self.dept = Department(deptName)
+        self.studentList = []
+
+    def facultyInfo(self):
+        return f'{self.personInfo()} works in the {self.dept.deptName} dept.'
+
+
+class Department:
+    def __init__(self, deptName):
+        self.deptName = deptName
+
+
+facultyMember1 = Faculty("Greg", "Anderson", "IS")
+student1 = Student("Jack", "Estes", 2.69)
+print(facultyMember1.facultyInfo())
+print(student1.studentInfo())
