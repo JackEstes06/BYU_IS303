@@ -37,6 +37,17 @@ def startPage(name, myBook):
     currSheet.cell(6, 6).value = "Number of Students"
 
 
+def createSheets(currSheet, classesList, goodData):
+    for row in currSheet:
+        if row[0].value == "Class Name":
+            pass
+        elif not classesList.__contains__(row[0].value):
+            print(row[0].value)
+            classesList.append(row[0].value)
+            goodData.create_sheet(row[0].value)
+            startPage(row[0].value, goodData)
+
+
 # Create objects for poorly organized spreadsheets w/ our data
 poorDataXlsx1 = openpyxl.load_workbook("Poorly_Organized_Data_1.xlsx")
 poorDataXlsx2 = openpyxl.load_workbook("Poorly_Organized_Data_2.xlsx")
@@ -45,29 +56,9 @@ poorDataXlsx2 = openpyxl.load_workbook("Poorly_Organized_Data_2.xlsx")
 goodDataXlsx1 = Workbook()
 goodDataXlsx2 = Workbook()
 
-# Create sheets for each class in poorDataXlsx1
-currSheet = poorDataXlsx1.active
-classesList = []
-for row in currSheet:
-    if row[0].value == "Class Name":
-        pass
-    elif not classesList.__contains__(row[0].value):
-        print(row[0].value)
-        classesList.append(row[0].value)
-        goodDataXlsx1.create_sheet(row[0].value)
-        startPage(row[0].value, goodDataXlsx1)
-
-# Create sheets for each class in poorDataXlsx2
-currSheet = poorDataXlsx2.active
-classesList = []
-for row in currSheet:
-    if row[0].value == "Class Name":
-        pass
-    elif not classesList.__contains__(row[0].value):
-        print(row[0].value)
-        classesList.append(row[0].value)
-        goodDataXlsx2.create_sheet(row[0].value)
-        startPage(row[0].value, goodDataXlsx2)
+# Create sheets for each class in poorDataXlsx1 & poorDataXlsx2
+createSheets(poorDataXlsx1.active, [], goodDataXlsx1)
+createSheets(poorDataXlsx2.active, [], goodDataXlsx2)
 
 # Remove default sheets if they exist
 goodDataXlsx1.__delitem__("Sheet")
