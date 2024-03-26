@@ -5,15 +5,80 @@
 # different workbooks & statistics
 import openpyxl
 from openpyxl import Workbook
+from openpyxl.styles import Font
+
+
+def startPage(name, myBook):
+    # Headers
+    currSheet = myBook[name]
+    currSheet.cell(1, 1).value = "Last Name"
+    currSheet.column_dimensions["A"].width = len(currSheet.cell(1, 1).value) + 5
+    currSheet.cell(1, 1).font = Font(bold=True)
+    currSheet.cell(1, 2).value = "First Name"
+    currSheet.column_dimensions["B"].width = len(currSheet.cell(1, 2).value) + 5
+    currSheet.cell(1, 2).font = Font(bold=True)
+    currSheet.cell(1, 3).value = "Student ID"
+    currSheet.column_dimensions["C"].width = len(currSheet.cell(1, 3).value) + 5
+    currSheet.cell(1, 3).font = Font(bold=True)
+    currSheet.cell(1, 4).value = "Grade"
+    currSheet.column_dimensions["D"].width = len(currSheet.cell(1, 4).value) + 5
+    currSheet.cell(1, 4).font = Font(bold=True)
+    currSheet.cell(1, 6).value = "Summary Statistics"
+    currSheet.column_dimensions["F"].width = len(currSheet.cell(1, 6).value) + 5
+    currSheet.cell(1, 6).font = Font(bold=True)
+    currSheet.cell(1, 7).value = "Value"
+    currSheet.column_dimensions["G"].width = len(currSheet.cell(1, 7).value) + 5
+    currSheet.cell(1, 7).font = Font(bold=True)
+    # Non Headers
+    currSheet.cell(2, 6).value = "Highest Grade"
+    currSheet.cell(3, 6).value = "Lowest Grade"
+    currSheet.cell(4, 6).value = "Mean Grade"
+    currSheet.cell(5, 6).value = "Median Grade"
+    currSheet.cell(6, 6).value = "Number of Students"
+
 
 # Create objects for poorly organized spreadsheets w/ our data
 poorDataXlsx1 = openpyxl.load_workbook("Poorly_Organized_Data_1.xlsx")
 poorDataXlsx2 = openpyxl.load_workbook("Poorly_Organized_Data_2.xlsx")
 
-# TODO remove content below
-myWorkbook = Workbook()
-currSheet = myWorkbook.active
+# Create objects for well organized spreadsheet data
+goodDataXlsx1 = Workbook()
+goodDataXlsx2 = Workbook()
 
-myWorkbook.save(filename="Well_Organized_Data_1.xlsx")
-myWorkbook.close()
-# end TODO
+# Create sheets for each class in poorDataXlsx1
+currSheet = poorDataXlsx1.active
+classesList = []
+for row in currSheet:
+    if row[0].value == "Class Name":
+        pass
+    elif not classesList.__contains__(row[0].value):
+        print(row[0].value)
+        classesList.append(row[0].value)
+        goodDataXlsx1.create_sheet(row[0].value)
+        startPage(row[0].value, goodDataXlsx1)
+
+# Create sheets for each class in poorDataXlsx2
+currSheet = poorDataXlsx2.active
+classesList = []
+for row in currSheet:
+    if row[0].value == "Class Name":
+        pass
+    elif not classesList.__contains__(row[0].value):
+        print(row[0].value)
+        classesList.append(row[0].value)
+        goodDataXlsx2.create_sheet(row[0].value)
+        startPage(row[0].value, goodDataXlsx2)
+
+# Remove default sheets if they exist
+goodDataXlsx1.__delitem__("Sheet")
+goodDataXlsx2.__delitem__("Sheet")
+
+# Save the well organized data
+goodDataXlsx1.save(filename="Well_Organized_Data_1.xlsx")
+goodDataXlsx2.save(filename="Well_Organized_Data_2.xlsx")
+
+# Close all excel files used to avoid resource leak
+goodDataXlsx1.close()
+goodDataXlsx2.close()
+poorDataXlsx1.close()
+poorDataXlsx2.close()
