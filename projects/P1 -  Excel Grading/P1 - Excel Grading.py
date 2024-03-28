@@ -30,23 +30,16 @@ def startPage(name, myBook):
     currSheet.cell(1, 7).value = "Value"
     currSheet.column_dimensions["G"].width = len(currSheet.cell(1, 7).value) + 5
     currSheet.cell(1, 7).font = Font(bold=True)
-    # Non Headers
-    currSheet.cell(2, 6).value = "Highest Grade"
-    currSheet.cell(3, 6).value = "Lowest Grade"
-    currSheet.cell(4, 6).value = "Mean Grade"
-    currSheet.cell(5, 6).value = "Median Grade"
-    currSheet.cell(6, 6).value = "Number of Students"
+
+    # Filter data
+    currSheet.auto_filter.ref = "A:D"
 
 
 # Create a sheet for each unique class in the poorly organized data in an excel file
 def createSheets(poorData, classesList, goodData):
-    for row in poorData:
-        # Ignore headers in poor data file
-        if row[0].value == "Class Name":
-            pass
+    for row in poorData.iter_rows(min_row=2):
         # Add the class name to the classesList if it isn't already in there
-        elif not classesList.__contains__(row[0].value):
-            print(row[0].value)
+        if not classesList.__contains__(row[0].value):
             classesList.append(row[0].value)
             goodData.create_sheet(row[0].value)
             startPage(row[0].value, goodData)
@@ -54,17 +47,28 @@ def createSheets(poorData, classesList, goodData):
 
 # Organizes the data into each respective class
 def parseData(poorData, goodData):
-    classesList = goodData.sheetnames
-    print(f'Classes: {classesList}')
-    # TODO parse data into respective sheets
+    # In poor data:
+    # row[0] is class name
+    # row[1] is student info (firstName_lastName_ID)
+    # row[2] is grade value
     for row in poorData:
-        print(row[0].value)
-        print(row[1].value)
-        print(row[2].value)
+        studentInfoList = row[1].value.split("_")
+        if len(studentInfoList) > 1:
+            firstName = studentInfoList[0]
+            lastName = studentInfoList[1]
+            studentID = studentInfoList[2]
+            studentGrade = row[2].value
+            goodData[row[0].value].append([lastName, firstName, studentID, studentGrade])
 
 
 # Sets class statistics within each sheet of the workbook
 def setGrades(currSheet):
+    # Non Headers
+    currSheet.cell(2, 6).value = "Highest Grade"
+    currSheet.cell(3, 6).value = "Lowest Grade"
+    currSheet.cell(4, 6).value = "Mean Grade"
+    currSheet.cell(5, 6).value = "Median Grade"
+    currSheet.cell(6, 6).value = "Number of Students"
     currSheet["G2"] = '=MAX(OFFSET($D$2,0,0,COUNT($D:$D)-1,1))'
     currSheet["G3"] = '=MIN(OFFSET($D$2,0,0,COUNT($D:$D)-1,1))'
     currSheet["G4"] = '=IF(G6=0,0,AVERAGE(OFFSET($D$2,0,0,COUNT($D:$D)-1,1)))'
@@ -95,10 +99,12 @@ parseData(poorDataXlsx2.active, goodDataXlsx2)
 # Set the grade statistics values for each sheet
 for sheet in goodDataXlsx1.sheetnames:
     setGrades(goodDataXlsx1[sheet])
+for sheet in goodDataXlsx2.sheetnames:
+    setGrades(goodDataXlsx2[sheet])
 
 # Save the well organized data
-goodDataXlsx1.save(filename="Well_Organized_Data_1.xlsx")
-goodDataXlsx2.save(filename="Well_Organized_Data_2.xlsx")
+goodDataXlsx1.save(filename="Formatted_Grades_1.xlsx")
+goodDataXlsx2.save(filename="Formatted_Grades_2.xlsx")
 
 # Close all excel files used to avoid resource leak
 goodDataXlsx1.close()
