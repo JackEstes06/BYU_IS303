@@ -46,6 +46,22 @@ def createSheets(currSheet, classesList, goodData):
             classesList.append(row[0].value)
             goodData.create_sheet(row[0].value)
             startPage(row[0].value, goodData)
+            setGrades(goodData[row[0].value])
+    # Parse the data for each sheet
+    parseData(currSheet, classesList, goodData)
+
+
+def parseData(currSheet, classesList, goodData):
+    print("Parse data called")
+    # TODO parse data
+
+
+def setGrades(currSheet):
+    currSheet["G2"] = '=MAX(OFFSET($D$2,0,0,COUNT($D:$D)-1,1))'
+    currSheet["G3"] = '=MIN(OFFSET($D$2,0,0,COUNT($D:$D)-1,1))'
+    currSheet["G4"] = '=IF(G6=0,0,AVERAGE(OFFSET($D$2,0,0,COUNT($D:$D)-1,1)))'
+    currSheet["G5"] = '=IF(G6=0,0,MEDIAN(OFFSET($D$2,0,0,COUNT($D:$D)-1,1)))'
+    currSheet["G6"] = '=COUNT(OFFSET($D$2,0,0,COUNT($D:$D)-1,1))'
 
 
 # Create objects for poorly organized spreadsheets w/ our data
