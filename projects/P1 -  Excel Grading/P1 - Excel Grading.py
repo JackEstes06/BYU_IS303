@@ -47,8 +47,10 @@ def createSheets(currSheet, classesList, goodData):
             goodData.create_sheet(row[0].value)
             startPage(row[0].value, goodData)
             setGrades(goodData[row[0].value])
+    # TODO figure out where to put this
     # Parse the data for each sheet
     parseData(currSheet, classesList, goodData)
+    # end TODO
 
 
 def parseData(currSheet, classesList, goodData):
