@@ -37,8 +37,8 @@ def startPage(name, myBook):
     currSheet.cell(6, 6).value = "Number of Students"
 
 
-def createSheets(currSheet, classesList, goodData):
-    for row in currSheet:
+def createSheets(poorData, classesList, goodData):
+    for row in poorData:
         if row[0].value == "Class Name":
             pass
         elif not classesList.__contains__(row[0].value):
@@ -49,11 +49,11 @@ def createSheets(currSheet, classesList, goodData):
             setGrades(goodData[row[0].value])
     # TODO figure out where to put this
     # Parse the data for each sheet
-    parseData(currSheet, classesList, goodData)
+    parseData(poorData, classesList, goodData)
     # end TODO
 
 
-def parseData(currSheet, classesList, goodData):
+def parseData(poorData, classesList, goodData):
     print("Parse data called")
     # TODO parse data
 
