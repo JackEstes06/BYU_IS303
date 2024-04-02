@@ -3,6 +3,8 @@
 #
 # Project 1 - Take poorly formatted input data from excel sheets and create a more organized excel sheet w/
 # different workbooks & statistics
+import os
+
 import openpyxl
 from openpyxl import Workbook
 from openpyxl.styles import Font
@@ -103,11 +105,15 @@ for sheet in goodDataXlsx2.sheetnames:
     setGrades(goodDataXlsx2[sheet])
 
 # Save the well organized data
-goodDataXlsx1.save(filename="Formatted_Grades_1.xlsx")
-goodDataXlsx2.save(filename="Formatted_Grades_2.xlsx")
+outputFile1 = "Formatted_Grades_1.xlsx"
+outputFile2 = "Formatted_Grades_2.xlsx"
+goodDataXlsx1.save(filename=outputFile1)
+goodDataXlsx2.save(filename=outputFile2)
 
 # Close all excel files used to avoid resource leak
 goodDataXlsx1.close()
 goodDataXlsx2.close()
 poorDataXlsx1.close()
 poorDataXlsx2.close()
+os.system(f"open -a '/Applications/Microsoft/Microsoft Excel.app' {outputFile1}")
+os.system(f"open -a '/Applications/Numbers.app' {outputFile2}")
