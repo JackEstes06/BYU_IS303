@@ -95,6 +95,7 @@ elif sUserInput == "2":
     # Filter the data to what the user wants information on
     category = categoryNameDict[categoryToSum]
     dfImportedFiltered = dfImported.query(f"category == '{category}'")
+    productCounts = dfImportedFiltered.groupby("product")['total_price'].sum()
 else:
     # Prints message to user
     print("Closing the program.")
