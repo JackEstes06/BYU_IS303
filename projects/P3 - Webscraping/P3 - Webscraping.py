@@ -58,12 +58,7 @@ def webScraper(urlPath):
     # Get the talk's title if it exists
     scrapedTitle = scrapedSoup.find("h1", attrs={"id": "title1"})
     if scrapedTitle:
-        # Ignore the sustaining sessions otherwise continue to scrape
-        if "Sustaining of General Authorities" in scrapedTitle.text:
-            print("Sustaining found")
-            return
-        else:
-            print(f"Title: {scrapedTitle.text}")
+        print(f"Title: {scrapedTitle.text}")
 
     # Get the talk's speaker and calling if they exist
     scrapedAuthor = scrapedSoup.find("p", attrs={"id": "author1"})
