@@ -4,8 +4,13 @@
 
 import os
 import platform
+import pandas as pd
+import sqlalchemy
+import matplotlib as plot
+import psycopg2
 
 
+# Need to update configuration to emulate terminal in output console
 def clear_screen():
     if platform.system() == 'Windows':
         os.system('cls')
@@ -14,12 +19,6 @@ def clear_screen():
 
 
 clear_screen()
-
-import pandas as pd
-import matplotlib as plot
-import sqlalchemy
-from sqlalchemy import create_engine, text
-import psycopg2
 
 # Define database connection params
 db_name = "baseball"
@@ -30,7 +29,7 @@ db_port = "5432"
 
 # Connect to Postgres DB
 db_engine = sqlalchemy.create_engine(f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}")
-db_connection = db_engine.connect()
+db_engine.connect()
 
 # Import File for DB
 dfImportFile = pd.read_excel("mlb.xlsx")
@@ -38,4 +37,5 @@ dfImportFile = pd.read_excel("mlb.xlsx")
 #   - Index false doesn't add an automatically generated PK
 dfImportFile.to_sql("mlb", db_engine, if_exists='replace', index=False)
 
-
+# Disconnect from the database
+db_engine.dispose()
