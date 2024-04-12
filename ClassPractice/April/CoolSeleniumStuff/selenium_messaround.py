@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from myLoginInfo import USERNAME, PASSWORD
 
+# /robots.txt to check for what's scrape-able
+
 browser = webdriver.Firefox()
 browser.implicitly_wait(10)
 
