@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-from myLoginInfo import USERNAME, PASSWORD
+# from myLoginInfo import USERNAME, PASSWORD
 
 # /robots.txt to check for what's scrape-able
 
@@ -12,8 +12,8 @@ browser.implicitly_wait(10)
 browser.get("https://marriott.byu.edu/scheduler")
 
 # LOGIN STUFF
-browser.find_element(By.ID, "username").send_keys(USERNAME)
-browser.find_element(By.ID, "password").send_keys(PASSWORD)
+# browser.find_element(By.ID, "username").send_keys(USERNAME)
+# browser.find_element(By.ID, "password").send_keys(PASSWORD)
 browser.find_element(By.ID, "byuSignInButton").click()
 browser.find_element(By.ID, "dont-trust-browser-button").click()
 
