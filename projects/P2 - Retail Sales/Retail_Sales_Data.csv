@@ -1,0 +1,501 @@
+,sale_id,product,category,quantity_sold,sale_date,unit_price,total_price,customer_age_group,customer_gender,payment_method,FirstName,LastName
+0,1,Camera,Electronics,1,2022-04-01 20:32:59,1000,1000,56+,Female,Credit Card,Morgan,Wilson
+1,2,Laptop,Groceries,5,2022-02-03 08:51:17,850,4250,26-35,Male,Cash,Jamie,Miller
+2,3,Gloves,Clothing,4,2022-07-10 13:28:06,150,600,46-55,Male,Credit Card,Jamie,Williams
+3,4,Smartphone,Groceries,1,2022-09-27 14:43:06,1000,1000,36-45,Female,Cash,Morgan,Wilson
+4,5,Watch,Accessories,2,2022-05-08 03:14:15,200,400,56+,Male,Cash,Jordan,Rodriguez
+5,6,Backpack,Groceries,5,2022-08-09 06:30:40,100,500,26-35,Female,Credit Card,Casey,Rodriguez
+6,7,Water Bottle,Groceries,1,2022-03-16 14:58:22,200,200,56+,Male,Credit Card,Casey,Garcia
+7,8,T-shirt,Stationery,5,2022-12-10 17:26:26,700,3500,18-25,Female,Online Wallet,Jordan,Wilson
+8,9,Notebook,Clothing,2,2022-06-13 09:52:28,100,200,26-35,Male,Cash,Taylor,Brown
+9,10,Sneakers,Groceries,2,2022-10-18 03:37:52,650,1300,56+,Male,Cash,Jamie,Garcia
+10,11,Sneakers,Electronics,5,2022-07-02 09:29:43,250,1250,26-35,Male,Online Wallet,Taylor,Williams
+11,12,Dress,Stationery,5,2022-09-19 13:31:50,800,4000,36-45,Female,Cash,Jordan,Smith
+12,13,Scarf,Electronics,3,2022-05-11 16:35:03,700,2100,56+,Female,Credit Card,Peyton,Miller
+13,14,Pen,Clothing,1,2022-11-24 12:24:16,600,600,46-55,Female,Credit Card,Quinn,Williams
+14,15,Water Bottle,Groceries,1,2022-07-14 13:20:23,250,250,56+,Male,Credit Card,Alex,Wilson
+15,16,Jeans,Accessories,4,2022-07-31 07:40:11,550,2200,26-35,Female,Credit Card,Taylor,Miller
+16,17,Desk Lamp,Accessories,1,2022-03-21 08:55:57,250,250,18-25,Female,Online Wallet,Peyton,Garcia
+17,18,Umbrella,Clothing,2,2022-05-22 13:09:28,500,1000,46-55,Female,Cash,Riley,Davis
+18,19,Backpack,Groceries,3,2022-08-12 08:19:57,100,300,18-25,Male,Cash,Jordan,Johnson
+19,20,Jeans,Stationery,1,2022-09-21 08:26:07,100,100,46-55,Male,Online Wallet,Jordan,Williams
+20,21,Gloves,Groceries,1,2022-11-17 21:36:50,100,100,26-35,Female,Cash,Morgan,Smith
+21,22,Sunglasses,Stationery,1,2022-08-13 10:06:41,150,150,46-55,Female,Cash,Alex,Rodriguez
+22,23,Notebook,Clothing,2,2022-10-06 03:39:01,650,1300,46-55,Male,Cash,Peyton,Davis
+23,24,Desk Lamp,Clothing,2,2022-08-02 04:59:26,200,400,26-35,Male,Credit Card,Alex,Smith
+24,25,Smartphone,Groceries,5,2022-09-24 10:15:42,500,2500,36-45,Male,Credit Card,Riley,Johnson
+25,26,Sunglasses,Clothing,5,2022-08-29 19:37:00,850,4250,26-35,Male,Cash,Alex,Jones
+26,27,Sunglasses,Groceries,4,2022-12-21 06:28:31,200,800,56+,Female,Online Wallet,Morgan,Wilson
+27,28,Laptop,Accessories,5,2022-03-25 19:00:16,550,2750,26-35,Male,Credit Card,Peyton,Jones
+28,29,Pen,Accessories,4,2022-07-29 12:33:31,950,3800,26-35,Female,Cash,Taylor,Wilson
+29,30,Watch,Clothing,3,2022-12-11 10:26:34,100,300,18-25,Female,Credit Card,Jordan,Smith
+30,31,Backpack,Electronics,4,2022-09-03 02:13:28,400,1600,36-45,Male,Credit Card,Peyton,Brown
+31,32,Pen,Stationery,3,2022-10-09 23:02:46,250,750,56+,Male,Online Wallet,Jordan,Smith
+32,33,Backpack,Clothing,3,2022-01-14 22:25:37,450,1350,18-25,Female,Credit Card,Morgan,Garcia
+33,34,Sneakers,Stationery,1,2022-02-25 19:01:25,1000,1000,46-55,Female,Online Wallet,Morgan,Smith
+34,35,Watch,Accessories,5,2022-01-12 18:25:11,150,750,18-25,Female,Online Wallet,Alex,Miller
+35,36,Hat,Stationery,3,2022-09-24 19:38:11,200,600,26-35,Male,Online Wallet,Jordan,Garcia
+36,37,Laptop,Accessories,1,2022-01-15 06:53:06,300,300,56+,Male,Online Wallet,Avery,Jones
+37,38,Sneakers,Accessories,1,2022-06-20 09:30:20,200,200,18-25,Male,Cash,Jordan,Smith
+38,39,Pen,Accessories,3,2022-05-17 17:53:37,250,750,36-45,Male,Credit Card,Casey,Wilson
+39,40,Backpack,Electronics,3,2022-04-20 12:03:04,700,2100,46-55,Female,Cash,Quinn,Rodriguez
+40,41,Scarf,Clothing,4,2022-03-01 05:47:58,800,3200,36-45,Female,Online Wallet,Taylor,Davis
+41,42,Camera,Accessories,1,2022-10-24 22:11:04,550,550,36-45,Female,Online Wallet,Morgan,Johnson
+42,43,Hat,Accessories,1,2022-05-07 15:06:58,400,400,36-45,Female,Credit Card,Quinn,Jones
+43,44,Sunglasses,Stationery,4,2022-10-21 01:47:18,600,2400,36-45,Female,Online Wallet,Morgan,Johnson
+44,45,Headphones,Electronics,4,2022-10-20 07:22:42,200,800,56+,Male,Online Wallet,Quinn,Miller
+45,46,Pen,Stationery,5,2022-09-04 10:14:16,800,4000,56+,Male,Cash,Jordan,Williams
+46,47,Notebook,Accessories,5,2022-07-10 00:59:26,850,4250,56+,Female,Cash,Jamie,Brown
+47,48,Gloves,Groceries,1,2022-11-14 00:28:31,850,850,46-55,Male,Online Wallet,Jamie,Davis
+48,49,Desk Lamp,Stationery,3,2022-11-09 20:55:41,700,2100,36-45,Female,Credit Card,Taylor,Rodriguez
+49,50,Dress,Stationery,4,2022-05-18 10:29:29,1000,4000,36-45,Male,Cash,Jordan,Garcia
+50,51,Charger,Clothing,3,2022-06-03 22:30:38,100,300,36-45,Female,Credit Card,Casey,Brown
+51,52,Backpack,Stationery,4,2022-03-18 00:45:40,850,3400,26-35,Female,Online Wallet,Morgan,Williams
+52,53,Sneakers,Stationery,4,2022-09-20 17:36:45,650,2600,46-55,Female,Cash,Avery,Rodriguez
+53,54,Smartphone,Accessories,2,2022-01-26 12:13:46,350,700,18-25,Male,Online Wallet,Riley,Johnson
+54,55,Scarf,Electronics,5,2022-11-17 16:38:20,100,500,56+,Female,Cash,Morgan,Miller
+55,56,Watch,Stationery,4,2022-09-23 21:18:09,300,1200,56+,Female,Credit Card,Jamie,Williams
+56,57,Gloves,Clothing,1,2022-02-19 15:50:00,950,950,56+,Male,Online Wallet,Avery,Rodriguez
+57,58,Backpack,Groceries,4,2022-07-02 16:24:52,150,600,36-45,Male,Credit Card,Morgan,Garcia
+58,59,Desk Lamp,Accessories,1,2022-05-06 21:50:09,650,650,26-35,Male,Cash,Alex,Jones
+59,60,Gloves,Accessories,5,2022-10-18 12:41:58,1000,5000,26-35,Female,Credit Card,Alex,Brown
+60,61,T-shirt,Stationery,4,2022-06-12 12:08:27,850,3400,56+,Male,Credit Card,Jamie,Smith
+61,62,Jeans,Accessories,4,2022-04-11 15:21:18,950,3800,36-45,Female,Online Wallet,Morgan,Jones
+62,63,Smartphone,Electronics,3,2022-05-01 15:41:54,900,2700,26-35,Male,Cash,Riley,Smith
+63,64,Watch,Stationery,2,2022-07-31 03:53:26,100,200,26-35,Male,Online Wallet,Quinn,Johnson
+64,65,Camera,Clothing,4,2022-07-03 10:26:19,500,2000,46-55,Female,Credit Card,Avery,Brown
+65,66,Dress,Groceries,4,2022-08-30 10:10:00,250,1000,26-35,Female,Credit Card,Peyton,Smith
+66,67,Charger,Clothing,1,2022-03-07 18:35:35,700,700,26-35,Male,Credit Card,Peyton,Rodriguez
+67,68,Notebook,Electronics,1,2022-08-30 13:31:01,650,650,56+,Female,Cash,Taylor,Johnson
+68,69,Umbrella,Stationery,5,2022-12-01 12:43:21,900,4500,56+,Male,Online Wallet,Jordan,Miller
+69,70,Sneakers,Clothing,2,2022-10-27 02:15:34,400,800,36-45,Male,Online Wallet,Morgan,Davis
+70,71,Water Bottle,Clothing,1,2022-11-26 11:08:59,950,950,56+,Male,Online Wallet,Quinn,Johnson
+71,72,Gloves,Electronics,5,2022-10-02 01:11:20,200,1000,56+,Female,Online Wallet,Riley,Johnson
+72,73,Water Bottle,Stationery,3,2022-04-25 08:23:14,150,450,26-35,Female,Cash,Riley,Wilson
+73,74,Desk Lamp,Clothing,5,2022-02-28 18:48:02,450,2250,26-35,Male,Online Wallet,Morgan,Johnson
+74,75,Gloves,Accessories,5,2022-12-10 02:04:35,950,4750,18-25,Female,Online Wallet,Riley,Jones
+75,76,Jeans,Accessories,3,2022-04-29 22:33:15,1000,3000,46-55,Male,Credit Card,Jordan,Miller
+76,77,Notebook,Stationery,3,2022-09-11 17:25:24,950,2850,26-35,Male,Online Wallet,Jordan,Wilson
+77,78,Laptop,Groceries,4,2022-12-04 10:01:54,100,400,46-55,Male,Online Wallet,Riley,Wilson
+78,79,Backpack,Electronics,3,2022-10-26 21:08:04,700,2100,56+,Female,Credit Card,Quinn,Rodriguez
+79,80,Backpack,Accessories,4,2022-12-16 10:20:08,350,1400,56+,Male,Cash,Peyton,Miller
+80,81,Headphones,Electronics,5,2022-12-17 00:46:57,150,750,26-35,Female,Online Wallet,Morgan,Davis
+81,82,Smartphone,Accessories,4,2022-10-01 20:18:59,500,2000,56+,Male,Cash,Alex,Johnson
+82,83,Pen,Clothing,5,2022-08-30 18:49:12,950,4750,36-45,Female,Online Wallet,Avery,Jones
+83,84,Water Bottle,Electronics,2,2022-05-05 09:38:33,250,500,18-25,Female,Online Wallet,Jordan,Wilson
+84,85,Headphones,Accessories,4,2022-08-24 00:20:55,600,2400,36-45,Male,Credit Card,Alex,Brown
+85,86,Sunglasses,Stationery,1,2022-05-25 20:31:55,950,950,26-35,Male,Cash,Avery,Williams
+86,87,Laptop,Groceries,5,2022-06-09 23:42:32,500,2500,46-55,Male,Cash,Alex,Rodriguez
+87,88,Pen,Accessories,1,2022-07-30 05:23:52,800,800,26-35,Male,Online Wallet,Riley,Davis
+88,89,Laptop,Clothing,3,2022-05-29 22:29:41,250,750,46-55,Female,Credit Card,Riley,Brown
+89,90,Laptop,Accessories,3,2022-02-20 12:46:59,550,1650,46-55,Male,Credit Card,Jordan,Rodriguez
+90,91,Laptop,Groceries,1,2022-04-10 05:45:16,550,550,26-35,Male,Online Wallet,Avery,Wilson
+91,92,Camera,Electronics,3,2022-06-16 14:18:35,600,1800,18-25,Male,Credit Card,Casey,Brown
+92,93,Watch,Clothing,5,2022-06-14 20:05:14,950,4750,18-25,Female,Cash,Taylor,Brown
+93,94,Backpack,Accessories,5,2022-03-08 04:58:56,1000,5000,46-55,Male,Credit Card,Peyton,Rodriguez
+94,95,Notebook,Clothing,3,2022-10-06 15:12:29,450,1350,36-45,Male,Cash,Alex,Johnson
+95,96,Scarf,Stationery,4,2022-12-02 16:15:51,150,600,46-55,Female,Cash,Jordan,Davis
+96,97,Water Bottle,Groceries,3,2022-02-21 02:13:50,600,1800,56+,Female,Credit Card,Riley,Jones
+97,98,Laptop,Clothing,2,2022-07-25 10:49:40,100,200,26-35,Female,Online Wallet,Alex,Garcia
+98,99,Smartphone,Accessories,1,2022-10-21 23:46:16,700,700,26-35,Female,Online Wallet,Jamie,Wilson
+99,100,T-shirt,Stationery,4,2022-07-29 20:10:04,250,1000,46-55,Male,Online Wallet,Avery,Miller
+100,101,Sunglasses,Stationery,1,2022-07-30 00:16:00,700,700,46-55,Male,Cash,Morgan,Rodriguez
+101,102,Notebook,Groceries,5,2022-11-09 07:46:36,700,3500,56+,Female,Cash,Avery,Garcia
+102,103,Headphones,Accessories,3,2022-08-11 16:20:14,100,300,26-35,Male,Online Wallet,Jamie,Wilson
+103,104,Water Bottle,Accessories,3,2022-02-04 13:56:09,500,1500,56+,Female,Cash,Quinn,Johnson
+104,105,Headphones,Stationery,4,2022-02-17 08:50:25,350,1400,46-55,Female,Online Wallet,Jamie,Wilson
+105,106,Notebook,Stationery,5,2022-06-20 01:57:47,150,750,56+,Male,Online Wallet,Riley,Smith
+106,107,Sneakers,Clothing,5,2022-05-21 01:43:35,600,3000,26-35,Female,Cash,Taylor,Williams
+107,108,Scarf,Accessories,2,2022-03-10 23:50:29,850,1700,56+,Male,Cash,Taylor,Brown
+108,109,Charger,Electronics,1,2022-01-21 21:00:21,800,800,46-55,Female,Online Wallet,Peyton,Jones
+109,110,Hat,Groceries,5,2022-09-17 14:02:56,250,1250,56+,Female,Credit Card,Alex,Davis
+110,111,Umbrella,Clothing,3,2022-04-04 02:44:12,750,2250,56+,Male,Cash,Quinn,Miller
+111,112,Laptop,Electronics,4,2022-11-26 10:17:18,300,1200,36-45,Male,Online Wallet,Morgan,Davis
+112,113,Hat,Clothing,4,2022-07-07 18:00:55,450,1800,26-35,Female,Online Wallet,Jordan,Rodriguez
+113,114,Sunglasses,Stationery,5,2022-01-10 09:25:40,450,2250,36-45,Male,Cash,Jamie,Miller
+114,115,Dress,Accessories,3,2022-12-10 16:00:42,700,2100,46-55,Female,Cash,Quinn,Williams
+115,116,Watch,Clothing,3,2022-08-22 08:22:35,700,2100,56+,Male,Online Wallet,Quinn,Johnson
+116,117,Camera,Accessories,4,2022-05-03 14:00:12,100,400,46-55,Female,Online Wallet,Avery,Miller
+117,118,Sneakers,Stationery,1,2022-03-14 01:28:44,900,900,18-25,Female,Online Wallet,Casey,Jones
+118,119,Charger,Electronics,3,2022-03-11 21:33:17,950,2850,18-25,Female,Cash,Peyton,Johnson
+119,120,Smartphone,Electronics,2,2022-01-27 10:04:25,850,1700,26-35,Female,Credit Card,Avery,Garcia
+120,121,Scarf,Clothing,5,2022-01-05 07:35:13,500,2500,26-35,Male,Cash,Riley,Davis
+121,122,Sunglasses,Accessories,5,2022-03-03 20:08:44,550,2750,56+,Female,Credit Card,Riley,Miller
+122,123,T-shirt,Accessories,5,2022-05-09 11:53:19,600,3000,26-35,Male,Cash,Morgan,Jones
+123,124,Headphones,Groceries,1,2022-10-27 14:46:54,350,350,26-35,Female,Online Wallet,Peyton,Williams
+124,125,Dress,Accessories,2,2022-08-29 08:05:55,800,1600,46-55,Female,Online Wallet,Avery,Johnson
+125,126,Sneakers,Electronics,4,2022-07-23 04:10:22,250,1000,46-55,Male,Cash,Casey,Rodriguez
+126,127,Hat,Accessories,5,2022-10-11 00:08:15,750,3750,18-25,Female,Online Wallet,Jamie,Rodriguez
+127,128,Jeans,Clothing,3,2022-08-22 07:26:43,950,2850,46-55,Female,Cash,Jamie,Jones
+128,129,Backpack,Groceries,3,2022-08-09 18:47:31,750,2250,36-45,Female,Cash,Avery,Miller
+129,130,Sneakers,Groceries,4,2022-03-27 13:38:35,250,1000,26-35,Male,Credit Card,Riley,Rodriguez
+130,131,Gloves,Accessories,4,2022-07-01 11:04:33,550,2200,18-25,Female,Credit Card,Jamie,Miller
+131,132,Notebook,Stationery,5,2022-02-23 02:19:32,700,3500,26-35,Female,Credit Card,Jamie,Brown
+132,133,Laptop,Groceries,3,2022-12-17 20:24:48,150,450,46-55,Male,Credit Card,Morgan,Rodriguez
+133,134,T-shirt,Groceries,1,2022-09-19 19:17:02,300,300,36-45,Male,Cash,Riley,Garcia
+134,135,Umbrella,Electronics,2,2022-07-23 08:21:15,800,1600,46-55,Female,Credit Card,Avery,Williams
+135,136,Hat,Clothing,4,2022-08-12 02:23:56,300,1200,36-45,Male,Credit Card,Quinn,Brown
+136,137,Scarf,Accessories,4,2022-08-23 21:50:18,100,400,18-25,Male,Credit Card,Alex,Johnson
+137,138,Hat,Accessories,1,2022-06-27 22:32:03,950,950,26-35,Male,Credit Card,Morgan,Davis
+138,139,Hat,Groceries,4,2022-03-30 04:13:37,850,3400,56+,Male,Credit Card,Taylor,Smith
+139,140,Scarf,Electronics,5,2022-07-16 23:49:54,450,2250,46-55,Male,Credit Card,Quinn,Rodriguez
+140,141,Watch,Clothing,2,2022-10-16 16:48:58,800,1600,36-45,Male,Cash,Peyton,Rodriguez
+141,142,Camera,Accessories,1,2022-08-20 20:01:04,300,300,26-35,Male,Online Wallet,Jordan,Wilson
+142,143,T-shirt,Accessories,3,2022-07-07 09:34:55,550,1650,36-45,Male,Credit Card,Riley,Garcia
+143,144,Gloves,Groceries,1,2022-06-04 10:08:47,800,800,56+,Male,Credit Card,Taylor,Wilson
+144,145,Backpack,Electronics,2,2022-07-12 02:13:05,350,700,36-45,Female,Online Wallet,Alex,Davis
+145,146,Gloves,Groceries,1,2022-11-26 04:26:24,800,800,46-55,Female,Cash,Casey,Davis
+146,147,Water Bottle,Clothing,3,2022-11-14 22:49:34,550,1650,56+,Female,Online Wallet,Jamie,Williams
+147,148,Gloves,Clothing,5,2022-06-29 18:17:56,200,1000,26-35,Male,Online Wallet,Casey,Miller
+148,149,Sunglasses,Accessories,2,2022-07-10 02:05:45,900,1800,46-55,Male,Online Wallet,Peyton,Smith
+149,150,Camera,Stationery,3,2022-01-29 23:39:27,100,300,18-25,Female,Online Wallet,Taylor,Johnson
+150,151,Notebook,Electronics,3,2022-12-23 23:14:24,650,1950,46-55,Female,Online Wallet,Avery,Rodriguez
+151,152,Sneakers,Stationery,4,2022-09-12 19:10:51,1000,4000,26-35,Female,Cash,Alex,Garcia
+152,153,Sunglasses,Clothing,5,2022-01-09 03:53:36,800,4000,36-45,Male,Cash,Quinn,Miller
+153,154,Sunglasses,Accessories,2,2022-07-21 21:10:13,350,700,46-55,Male,Cash,Avery,Rodriguez
+154,155,Sneakers,Accessories,4,2022-03-28 04:47:38,800,3200,56+,Male,Online Wallet,Morgan,Jones
+155,156,Jeans,Groceries,3,2022-12-13 16:33:56,450,1350,36-45,Male,Cash,Morgan,Davis
+156,157,T-shirt,Accessories,1,2022-02-17 15:02:50,800,800,56+,Male,Online Wallet,Avery,Jones
+157,158,Watch,Accessories,1,2022-12-27 09:52:14,350,350,56+,Male,Cash,Alex,Miller
+158,159,T-shirt,Groceries,5,2022-07-01 11:19:13,850,4250,26-35,Female,Credit Card,Riley,Miller
+159,160,Dress,Electronics,2,2022-07-29 23:32:48,600,1200,56+,Female,Online Wallet,Taylor,Rodriguez
+160,161,Umbrella,Electronics,3,2022-10-03 00:50:56,350,1050,18-25,Female,Credit Card,Morgan,Rodriguez
+161,162,Jeans,Groceries,5,2022-01-05 06:43:57,400,2000,56+,Male,Online Wallet,Alex,Garcia
+162,163,Laptop,Accessories,3,2022-06-23 11:57:05,150,450,26-35,Male,Credit Card,Avery,Wilson
+163,164,Hat,Accessories,1,2022-09-23 07:39:55,800,800,56+,Male,Cash,Riley,Williams
+164,165,Charger,Accessories,3,2022-11-21 10:55:05,800,2400,26-35,Male,Cash,Jamie,Smith
+165,166,Watch,Stationery,3,2022-06-23 20:04:56,250,750,46-55,Female,Online Wallet,Casey,Williams
+166,167,Headphones,Accessories,1,2022-05-29 18:38:45,250,250,56+,Female,Online Wallet,Alex,Brown
+167,168,Camera,Stationery,1,2022-07-18 16:28:44,950,950,26-35,Male,Online Wallet,Avery,Garcia
+168,169,Laptop,Clothing,2,2022-04-17 04:57:00,800,1600,18-25,Male,Credit Card,Morgan,Johnson
+169,170,Sneakers,Accessories,1,2022-06-16 13:26:57,550,550,56+,Male,Cash,Avery,Brown
+170,171,Camera,Stationery,3,2022-10-23 00:11:38,250,750,46-55,Female,Online Wallet,Taylor,Smith
+171,172,Dress,Accessories,5,2022-10-03 23:27:51,950,4750,18-25,Male,Credit Card,Peyton,Jones
+172,173,Dress,Clothing,3,2022-05-03 20:32:38,750,2250,18-25,Female,Credit Card,Taylor,Rodriguez
+173,174,Backpack,Accessories,3,2022-05-18 18:49:05,500,1500,26-35,Female,Credit Card,Quinn,Jones
+174,175,Gloves,Stationery,4,2022-05-07 12:35:27,450,1800,26-35,Male,Credit Card,Jamie,Jones
+175,176,Dress,Groceries,3,2022-11-30 23:16:50,250,750,56+,Male,Online Wallet,Jamie,Miller
+176,177,Desk Lamp,Groceries,1,2022-05-08 22:13:24,800,800,18-25,Female,Credit Card,Taylor,Johnson
+177,178,Gloves,Electronics,3,2022-09-14 06:04:06,950,2850,26-35,Female,Cash,Casey,Williams
+178,179,Charger,Groceries,3,2022-01-28 16:22:22,450,1350,46-55,Female,Credit Card,Casey,Williams
+179,180,Pen,Groceries,4,2022-09-27 01:18:48,600,2400,56+,Male,Credit Card,Riley,Davis
+180,181,Watch,Electronics,5,2022-04-06 02:44:56,200,1000,46-55,Female,Online Wallet,Casey,Johnson
+181,182,Scarf,Electronics,4,2022-07-15 13:06:51,800,3200,18-25,Female,Cash,Alex,Smith
+182,183,Sneakers,Stationery,2,2022-03-16 23:26:18,800,1600,56+,Female,Credit Card,Quinn,Jones
+183,184,Headphones,Accessories,2,2022-05-05 14:47:06,1000,2000,46-55,Female,Online Wallet,Taylor,Smith
+184,185,T-shirt,Stationery,4,2022-09-03 00:37:59,450,1800,18-25,Male,Cash,Riley,Johnson
+185,186,Backpack,Clothing,2,2022-12-04 14:59:26,300,600,36-45,Male,Cash,Jamie,Davis
+186,187,Charger,Groceries,3,2022-05-21 06:48:54,800,2400,18-25,Female,Cash,Riley,Miller
+187,188,Scarf,Clothing,5,2022-04-24 12:23:42,400,2000,56+,Male,Cash,Casey,Johnson
+188,189,Desk Lamp,Clothing,3,2022-07-05 17:51:51,850,2550,56+,Male,Cash,Quinn,Wilson
+189,190,Hat,Stationery,3,2022-09-14 02:02:36,650,1950,36-45,Female,Online Wallet,Casey,Williams
+190,191,Notebook,Groceries,4,2022-05-08 09:28:03,950,3800,46-55,Male,Online Wallet,Avery,Johnson
+191,192,Watch,Clothing,3,2022-04-29 09:30:59,450,1350,36-45,Male,Credit Card,Taylor,Brown
+192,193,T-shirt,Groceries,3,2022-01-19 17:56:51,400,1200,46-55,Male,Credit Card,Quinn,Williams
+193,194,Jeans,Stationery,5,2022-08-19 10:25:38,250,1250,46-55,Female,Credit Card,Taylor,Williams
+194,195,Watch,Clothing,1,2022-09-14 19:55:26,150,150,26-35,Female,Online Wallet,Jordan,Jones
+195,196,Smartphone,Accessories,4,2022-10-29 15:45:43,300,1200,56+,Female,Cash,Alex,Miller
+196,197,Desk Lamp,Accessories,2,2022-05-27 00:07:35,500,1000,26-35,Male,Online Wallet,Alex,Miller
+197,198,Pen,Electronics,2,2022-05-12 19:51:29,450,900,46-55,Male,Cash,Morgan,Jones
+198,199,Smartphone,Stationery,2,2022-02-24 16:01:06,150,300,56+,Female,Online Wallet,Peyton,Williams
+199,200,Camera,Groceries,2,2022-04-06 00:32:57,1000,2000,36-45,Female,Credit Card,Casey,Brown
+200,201,Camera,Stationery,3,2022-04-25 18:16:39,500,1500,36-45,Male,Online Wallet,Casey,Rodriguez
+201,202,Notebook,Electronics,4,2022-08-28 05:59:32,450,1800,46-55,Female,Online Wallet,Alex,Johnson
+202,203,Sneakers,Groceries,5,2022-08-09 07:22:28,450,2250,46-55,Female,Online Wallet,Alex,Wilson
+203,204,Backpack,Clothing,3,2022-12-24 02:36:56,450,1350,56+,Male,Cash,Alex,Jones
+204,205,Laptop,Electronics,2,2022-06-30 07:03:54,900,1800,26-35,Male,Online Wallet,Riley,Smith
+205,206,Laptop,Stationery,4,2022-06-08 11:05:03,350,1400,36-45,Female,Cash,Riley,Smith
+206,207,Charger,Clothing,2,2022-03-20 20:38:17,950,1900,56+,Male,Cash,Peyton,Johnson
+207,208,Scarf,Groceries,2,2022-09-24 03:47:25,400,800,18-25,Male,Cash,Peyton,Williams
+208,209,Scarf,Stationery,1,2022-04-03 13:00:30,500,500,46-55,Male,Online Wallet,Taylor,Brown
+209,210,T-shirt,Electronics,2,2022-12-03 11:51:43,600,1200,26-35,Male,Credit Card,Casey,Wilson
+210,211,Charger,Accessories,2,2022-04-09 04:20:42,1000,2000,26-35,Female,Online Wallet,Alex,Wilson
+211,212,Jeans,Clothing,4,2022-12-27 04:42:33,700,2800,26-35,Female,Credit Card,Taylor,Garcia
+212,213,Dress,Stationery,2,2022-03-13 20:07:40,350,700,46-55,Male,Online Wallet,Avery,Johnson
+213,214,Camera,Groceries,1,2022-07-30 05:02:10,850,850,26-35,Female,Credit Card,Jordan,Brown
+214,215,Laptop,Accessories,4,2022-05-14 13:35:45,750,3000,18-25,Female,Cash,Peyton,Miller
+215,216,Camera,Electronics,3,2022-02-24 21:59:31,850,2550,18-25,Male,Credit Card,Taylor,Williams
+216,217,Sneakers,Electronics,1,2022-08-03 12:14:33,450,450,56+,Male,Cash,Taylor,Garcia
+217,218,Jeans,Groceries,2,2022-08-17 06:38:24,450,900,18-25,Female,Online Wallet,Taylor,Smith
+218,219,Smartphone,Stationery,3,2022-03-19 10:33:23,550,1650,56+,Female,Credit Card,Taylor,Davis
+219,220,Notebook,Accessories,1,2022-10-13 10:44:37,300,300,26-35,Female,Cash,Casey,Johnson
+220,221,Watch,Electronics,3,2022-05-28 05:23:33,300,900,18-25,Female,Cash,Alex,Johnson
+221,222,Water Bottle,Stationery,2,2022-03-13 07:05:27,650,1300,18-25,Female,Cash,Taylor,Davis
+222,223,Dress,Groceries,2,2022-10-07 08:27:24,400,800,46-55,Male,Online Wallet,Alex,Wilson
+223,224,Sneakers,Electronics,4,2022-12-10 06:37:02,800,3200,18-25,Male,Credit Card,Jordan,Davis
+224,225,Headphones,Groceries,2,2022-06-17 13:57:39,1000,2000,26-35,Male,Cash,Quinn,Garcia
+225,226,Headphones,Electronics,1,2022-06-25 02:11:48,700,700,56+,Female,Credit Card,Peyton,Smith
+226,227,Sneakers,Stationery,3,2022-12-07 10:42:44,1000,3000,18-25,Male,Cash,Casey,Jones
+227,228,Hat,Accessories,5,2022-07-07 07:33:56,700,3500,26-35,Female,Online Wallet,Casey,Davis
+228,229,Water Bottle,Electronics,3,2022-01-21 14:10:07,250,750,56+,Female,Credit Card,Peyton,Smith
+229,230,Dress,Clothing,2,2022-09-11 01:28:10,350,700,56+,Female,Cash,Peyton,Smith
+230,231,Backpack,Accessories,5,2022-06-26 00:01:08,650,3250,36-45,Male,Online Wallet,Avery,Davis
+231,232,Scarf,Stationery,2,2022-01-02 11:20:41,350,700,56+,Male,Online Wallet,Casey,Davis
+232,233,Jeans,Accessories,2,2022-05-23 09:16:31,850,1700,56+,Male,Credit Card,Quinn,Williams
+233,234,Pen,Groceries,3,2022-10-24 04:34:57,550,1650,46-55,Female,Online Wallet,Alex,Williams
+234,235,Watch,Groceries,1,2022-11-04 08:13:57,650,650,56+,Female,Credit Card,Riley,Johnson
+235,236,Pen,Electronics,5,2022-06-21 19:59:13,1000,5000,56+,Female,Cash,Quinn,Wilson
+236,237,Hat,Clothing,4,2022-03-20 21:39:56,350,1400,36-45,Female,Online Wallet,Avery,Williams
+237,238,Pen,Accessories,3,2022-12-27 03:56:26,150,450,56+,Female,Online Wallet,Riley,Miller
+238,239,Camera,Clothing,3,2022-03-06 07:27:03,900,2700,18-25,Female,Cash,Casey,Smith
+239,240,Desk Lamp,Electronics,3,2022-10-02 18:06:04,200,600,18-25,Female,Credit Card,Jordan,Williams
+240,241,Dress,Electronics,3,2022-10-10 08:16:54,200,600,46-55,Male,Credit Card,Avery,Davis
+241,242,Laptop,Stationery,4,2022-07-26 01:29:37,450,1800,36-45,Male,Online Wallet,Alex,Wilson
+242,243,Dress,Electronics,1,2022-07-05 13:50:46,200,200,18-25,Male,Cash,Morgan,Brown
+243,244,Dress,Accessories,4,2022-05-29 15:29:18,350,1400,46-55,Male,Cash,Alex,Wilson
+244,245,Pen,Electronics,2,2022-11-16 00:31:56,600,1200,18-25,Male,Credit Card,Riley,Johnson
+245,246,Desk Lamp,Clothing,4,2022-11-06 10:33:45,750,3000,26-35,Male,Cash,Avery,Miller
+246,247,Sunglasses,Stationery,4,2022-08-30 09:30:22,400,1600,36-45,Female,Online Wallet,Riley,Brown
+247,248,Sunglasses,Stationery,1,2022-08-16 03:27:53,600,600,46-55,Female,Cash,Jamie,Williams
+248,249,Headphones,Groceries,1,2022-07-24 03:05:36,850,850,26-35,Female,Online Wallet,Alex,Davis
+249,250,Jeans,Accessories,5,2022-07-05 04:39:24,700,3500,18-25,Female,Online Wallet,Avery,Jones
+250,251,Umbrella,Accessories,3,2022-07-12 17:48:09,350,1050,46-55,Female,Online Wallet,Alex,Garcia
+251,252,Dress,Stationery,3,2022-07-28 17:53:42,250,750,18-25,Male,Credit Card,Quinn,Garcia
+252,253,Watch,Stationery,4,2022-06-09 04:16:43,250,1000,56+,Male,Online Wallet,Riley,Garcia
+253,254,Desk Lamp,Clothing,4,2022-03-08 18:01:11,1000,4000,56+,Male,Cash,Alex,Johnson
+254,255,Pen,Stationery,1,2022-11-16 23:47:10,850,850,26-35,Male,Online Wallet,Peyton,Jones
+255,256,Desk Lamp,Stationery,5,2022-02-06 15:17:32,950,4750,26-35,Female,Cash,Alex,Johnson
+256,257,Dress,Electronics,4,2022-08-02 11:28:32,500,2000,26-35,Female,Cash,Casey,Wilson
+257,258,Hat,Accessories,2,2022-11-22 17:31:01,750,1500,18-25,Male,Online Wallet,Quinn,Miller
+258,259,Sneakers,Accessories,4,2022-03-29 11:31:30,800,3200,18-25,Female,Online Wallet,Avery,Miller
+259,260,Sneakers,Clothing,1,2022-06-24 05:45:37,800,800,36-45,Male,Online Wallet,Avery,Wilson
+260,261,Notebook,Groceries,3,2022-03-06 04:56:45,800,2400,36-45,Male,Cash,Quinn,Johnson
+261,262,Gloves,Groceries,3,2022-01-17 19:21:12,500,1500,36-45,Male,Credit Card,Casey,Jones
+262,263,Sunglasses,Stationery,4,2022-02-05 06:13:17,700,2800,56+,Male,Credit Card,Peyton,Smith
+263,264,Laptop,Stationery,2,2022-05-17 16:27:11,850,1700,36-45,Female,Cash,Quinn,Miller
+264,265,Laptop,Clothing,1,2022-09-24 10:22:56,750,750,36-45,Female,Cash,Taylor,Brown
+265,266,Backpack,Accessories,5,2022-03-06 15:03:52,900,4500,46-55,Female,Online Wallet,Morgan,Wilson
+266,267,Umbrella,Accessories,2,2022-10-20 02:36:40,100,200,56+,Male,Cash,Taylor,Miller
+267,268,Scarf,Clothing,4,2022-03-01 16:14:22,400,1600,36-45,Female,Credit Card,Morgan,Davis
+268,269,Laptop,Clothing,4,2022-03-08 10:47:35,450,1800,18-25,Male,Cash,Peyton,Rodriguez
+269,270,Backpack,Stationery,5,2022-11-30 04:44:40,450,2250,56+,Male,Cash,Riley,Johnson
+270,271,Water Bottle,Groceries,2,2022-09-27 15:17:56,600,1200,46-55,Female,Online Wallet,Jordan,Wilson
+271,272,Jeans,Clothing,4,2022-07-23 11:56:13,650,2600,36-45,Male,Online Wallet,Casey,Rodriguez
+272,273,Sneakers,Clothing,1,2022-11-01 18:34:58,150,150,26-35,Male,Online Wallet,Avery,Johnson
+273,274,Headphones,Groceries,4,2022-11-08 21:32:48,250,1000,46-55,Female,Cash,Jordan,Brown
+274,275,Sneakers,Electronics,2,2022-08-02 05:20:46,850,1700,46-55,Male,Online Wallet,Casey,Rodriguez
+275,276,Headphones,Clothing,5,2022-12-07 15:53:58,900,4500,36-45,Male,Cash,Quinn,Rodriguez
+276,277,Scarf,Groceries,1,2022-01-31 22:51:58,1000,1000,56+,Female,Credit Card,Taylor,Johnson
+277,278,Smartphone,Stationery,5,2022-05-27 20:59:37,900,4500,26-35,Female,Credit Card,Taylor,Davis
+278,279,Scarf,Clothing,3,2022-12-30 05:37:49,200,600,56+,Male,Online Wallet,Peyton,Brown
+279,280,Umbrella,Groceries,4,2022-11-15 23:21:50,950,3800,26-35,Male,Cash,Casey,Wilson
+280,281,Desk Lamp,Electronics,1,2022-10-27 11:57:29,800,800,26-35,Male,Online Wallet,Casey,Williams
+281,282,Water Bottle,Stationery,5,2022-11-27 07:17:36,600,3000,26-35,Male,Credit Card,Jamie,Smith
+282,283,Pen,Clothing,1,2022-01-17 05:52:44,850,850,56+,Female,Credit Card,Casey,Miller
+283,284,Charger,Electronics,3,2022-02-21 14:53:37,300,900,26-35,Male,Credit Card,Morgan,Brown
+284,285,Desk Lamp,Electronics,3,2022-03-02 04:30:16,650,1950,18-25,Female,Cash,Peyton,Brown
+285,286,Dress,Clothing,4,2022-03-18 12:33:06,300,1200,46-55,Male,Credit Card,Quinn,Wilson
+286,287,Jeans,Groceries,3,2022-08-22 21:17:45,250,750,26-35,Female,Cash,Jordan,Miller
+287,288,Sunglasses,Clothing,3,2022-08-09 23:55:00,350,1050,46-55,Male,Cash,Casey,Wilson
+288,289,Sneakers,Accessories,5,2022-11-05 03:49:21,600,3000,36-45,Female,Online Wallet,Alex,Rodriguez
+289,290,Desk Lamp,Groceries,5,2022-09-29 06:31:27,450,2250,56+,Female,Credit Card,Morgan,Williams
+290,291,Scarf,Electronics,1,2022-11-11 20:13:52,800,800,26-35,Female,Credit Card,Jamie,Wilson
+291,292,Headphones,Groceries,2,2022-07-16 17:18:20,450,900,26-35,Male,Cash,Avery,Davis
+292,293,Umbrella,Clothing,5,2022-09-23 05:52:54,750,3750,26-35,Male,Online Wallet,Casey,Wilson
+293,294,Hat,Electronics,2,2022-10-02 14:41:23,400,800,56+,Female,Online Wallet,Jordan,Johnson
+294,295,Jeans,Stationery,2,2022-07-02 14:40:42,200,400,36-45,Male,Online Wallet,Morgan,Williams
+295,296,Smartphone,Stationery,4,2022-11-18 07:31:56,150,600,56+,Female,Cash,Riley,Johnson
+296,297,Sneakers,Electronics,4,2022-06-07 17:29:05,800,3200,36-45,Female,Credit Card,Morgan,Miller
+297,298,Sneakers,Clothing,1,2022-07-23 21:58:41,800,800,18-25,Female,Credit Card,Riley,Miller
+298,299,Umbrella,Groceries,3,2022-06-07 08:40:36,700,2100,36-45,Male,Online Wallet,Riley,Smith
+299,300,Camera,Accessories,1,2022-05-13 00:36:24,650,650,26-35,Female,Online Wallet,Alex,Miller
+300,301,Gloves,Groceries,1,2022-12-07 13:40:52,900,900,46-55,Female,Cash,Casey,Jones
+301,302,Headphones,Stationery,1,2022-07-26 18:16:04,300,300,18-25,Male,Credit Card,Avery,Davis
+302,303,Water Bottle,Groceries,2,2022-09-25 23:02:01,800,1600,36-45,Female,Cash,Alex,Wilson
+303,304,Sunglasses,Accessories,1,2022-07-19 13:21:35,300,300,26-35,Female,Cash,Alex,Jones
+304,305,Pen,Stationery,1,2022-06-23 03:36:47,750,750,46-55,Female,Online Wallet,Morgan,Jones
+305,306,Jeans,Accessories,5,2022-06-16 06:27:46,1000,5000,36-45,Male,Cash,Quinn,Miller
+306,307,Laptop,Electronics,4,2022-07-07 07:19:09,1000,4000,26-35,Female,Cash,Riley,Miller
+307,308,Scarf,Stationery,2,2022-01-02 12:14:13,400,800,36-45,Male,Online Wallet,Alex,Rodriguez
+308,309,Jeans,Electronics,4,2022-08-13 05:50:25,400,1600,46-55,Male,Credit Card,Riley,Davis
+309,310,Notebook,Electronics,5,2022-06-21 08:54:09,300,1500,36-45,Female,Credit Card,Taylor,Davis
+310,311,Camera,Accessories,3,2022-04-23 04:50:55,100,300,26-35,Female,Online Wallet,Peyton,Wilson
+311,312,Desk Lamp,Accessories,1,2022-11-19 09:02:09,750,750,36-45,Male,Online Wallet,Taylor,Rodriguez
+312,313,Jeans,Stationery,3,2022-01-07 21:13:25,750,2250,56+,Male,Credit Card,Riley,Davis
+313,314,Jeans,Groceries,4,2022-08-10 13:15:28,800,3200,46-55,Female,Credit Card,Jamie,Johnson
+314,315,Backpack,Electronics,4,2022-09-12 02:37:55,150,600,56+,Male,Online Wallet,Quinn,Williams
+315,316,Scarf,Stationery,1,2022-02-14 20:10:27,600,600,26-35,Male,Credit Card,Avery,Rodriguez
+316,317,Backpack,Groceries,5,2022-07-18 14:51:38,500,2500,18-25,Female,Online Wallet,Morgan,Williams
+317,318,Pen,Accessories,5,2022-01-15 13:46:26,550,2750,18-25,Female,Cash,Casey,Garcia
+318,319,Sunglasses,Electronics,3,2022-08-07 06:25:17,100,300,26-35,Female,Credit Card,Quinn,Miller
+319,320,Smartphone,Electronics,4,2022-06-30 09:36:13,200,800,36-45,Female,Cash,Quinn,Wilson
+320,321,Headphones,Clothing,4,2022-12-18 09:50:46,350,1400,26-35,Male,Credit Card,Jordan,Davis
+321,322,Umbrella,Accessories,3,2022-05-02 12:31:03,150,450,56+,Male,Cash,Peyton,Garcia
+322,323,Sunglasses,Electronics,3,2022-12-23 02:55:36,800,2400,36-45,Female,Cash,Avery,Wilson
+323,324,Gloves,Accessories,1,2022-02-15 16:59:20,900,900,18-25,Female,Credit Card,Taylor,Smith
+324,325,Charger,Electronics,1,2022-02-15 12:56:06,250,250,36-45,Male,Credit Card,Jamie,Jones
+325,326,Headphones,Clothing,1,2022-01-13 11:59:51,200,200,36-45,Male,Online Wallet,Taylor,Brown
+326,327,Hat,Electronics,1,2022-08-18 04:05:58,400,400,36-45,Female,Cash,Casey,Johnson
+327,328,Charger,Groceries,4,2022-02-07 22:26:32,200,800,56+,Female,Cash,Jordan,Williams
+328,329,Charger,Accessories,5,2022-04-17 14:21:59,550,2750,46-55,Female,Credit Card,Jamie,Jones
+329,330,Charger,Groceries,4,2022-04-30 10:04:01,700,2800,36-45,Male,Online Wallet,Peyton,Miller
+330,331,Desk Lamp,Groceries,4,2022-07-15 02:59:43,700,2800,18-25,Female,Credit Card,Morgan,Brown
+331,332,Scarf,Accessories,5,2022-07-12 11:52:06,300,1500,56+,Male,Cash,Riley,Rodriguez
+332,333,Pen,Accessories,1,2022-04-15 15:11:29,750,750,36-45,Female,Online Wallet,Alex,Williams
+333,334,Jeans,Stationery,4,2022-08-04 21:47:28,700,2800,46-55,Female,Credit Card,Riley,Miller
+334,335,Sunglasses,Accessories,4,2022-09-18 02:34:02,300,1200,18-25,Female,Credit Card,Jordan,Rodriguez
+335,336,Gloves,Stationery,2,2022-04-22 03:29:27,200,400,36-45,Male,Credit Card,Casey,Brown
+336,337,T-shirt,Groceries,4,2022-09-11 15:26:37,500,2000,18-25,Male,Credit Card,Jordan,Wilson
+337,338,Sunglasses,Electronics,4,2022-08-22 00:20:45,650,2600,26-35,Female,Cash,Riley,Davis
+338,339,Water Bottle,Groceries,1,2022-06-08 04:42:04,250,250,36-45,Male,Credit Card,Alex,Smith
+339,340,Sunglasses,Electronics,2,2022-09-08 08:00:43,200,400,18-25,Female,Online Wallet,Alex,Davis
+340,341,Backpack,Stationery,2,2022-04-06 10:44:48,600,1200,26-35,Male,Cash,Alex,Rodriguez
+341,342,Backpack,Groceries,5,2022-07-09 18:27:27,250,1250,46-55,Female,Cash,Casey,Miller
+342,343,Laptop,Clothing,5,2022-05-15 17:29:47,900,4500,36-45,Female,Cash,Peyton,Williams
+343,344,Gloves,Groceries,1,2022-04-07 23:45:21,750,750,18-25,Male,Cash,Peyton,Davis
+344,345,Scarf,Clothing,3,2022-03-27 21:19:45,200,600,18-25,Male,Credit Card,Peyton,Brown
+345,346,Desk Lamp,Accessories,3,2022-12-06 05:43:55,900,2700,36-45,Female,Online Wallet,Avery,Davis
+346,347,Laptop,Groceries,2,2022-04-01 17:08:10,750,1500,18-25,Male,Cash,Casey,Williams
+347,348,Backpack,Accessories,1,2022-07-10 15:56:42,750,750,46-55,Male,Online Wallet,Peyton,Williams
+348,349,Jeans,Stationery,3,2022-03-24 05:31:19,750,2250,46-55,Female,Credit Card,Alex,Miller
+349,350,Notebook,Electronics,5,2022-11-04 14:25:09,650,3250,18-25,Female,Credit Card,Taylor,Smith
+350,351,Dress,Electronics,3,2022-06-04 19:52:50,800,2400,18-25,Male,Cash,Jamie,Jones
+351,352,Jeans,Clothing,1,2022-02-14 21:47:18,300,300,26-35,Male,Online Wallet,Taylor,Wilson
+352,353,Backpack,Electronics,3,2022-04-29 23:02:43,600,1800,18-25,Female,Online Wallet,Avery,Williams
+353,354,Jeans,Clothing,5,2022-03-09 23:44:40,600,3000,18-25,Female,Credit Card,Avery,Smith
+354,355,Camera,Electronics,3,2022-05-14 20:37:55,600,1800,46-55,Female,Online Wallet,Taylor,Wilson
+355,356,Headphones,Stationery,4,2022-07-31 17:35:25,450,1800,26-35,Female,Online Wallet,Peyton,Miller
+356,357,Dress,Stationery,4,2022-08-24 06:41:22,450,1800,56+,Female,Credit Card,Morgan,Williams
+357,358,Scarf,Stationery,2,2022-07-11 12:59:41,750,1500,18-25,Male,Credit Card,Quinn,Brown
+358,359,Gloves,Stationery,1,2022-01-26 15:26:04,350,350,56+,Male,Cash,Riley,Jones
+359,360,Dress,Stationery,5,2022-02-03 13:29:53,300,1500,18-25,Female,Credit Card,Quinn,Johnson
+360,361,Hat,Groceries,1,2022-09-15 09:27:32,450,450,56+,Female,Credit Card,Jordan,Davis
+361,362,Dress,Groceries,2,2022-08-04 17:32:47,850,1700,46-55,Female,Credit Card,Peyton,Jones
+362,363,Water Bottle,Electronics,2,2022-01-30 02:35:09,1000,2000,18-25,Male,Online Wallet,Casey,Garcia
+363,364,Charger,Groceries,5,2022-10-09 23:40:04,550,2750,26-35,Female,Online Wallet,Riley,Johnson
+364,365,Charger,Electronics,5,2022-06-08 18:19:52,100,500,36-45,Female,Cash,Peyton,Johnson
+365,366,Backpack,Stationery,1,2022-11-22 00:09:50,750,750,18-25,Male,Online Wallet,Jamie,Davis
+366,367,Notebook,Groceries,3,2022-08-03 08:36:58,950,2850,26-35,Female,Credit Card,Riley,Jones
+367,368,Notebook,Electronics,5,2022-04-03 20:45:15,650,3250,26-35,Female,Credit Card,Morgan,Miller
+368,369,Charger,Accessories,1,2022-01-16 03:16:50,500,500,56+,Male,Credit Card,Quinn,Garcia
+369,370,Watch,Groceries,3,2022-06-18 17:27:06,300,900,56+,Male,Credit Card,Casey,Miller
+370,371,Laptop,Clothing,2,2022-11-09 05:07:35,450,900,26-35,Male,Cash,Jordan,Smith
+371,372,Hat,Stationery,1,2022-03-10 02:53:04,400,400,46-55,Male,Online Wallet,Casey,Brown
+372,373,Gloves,Electronics,5,2022-07-20 12:23:49,250,1250,18-25,Male,Credit Card,Jamie,Brown
+373,374,Desk Lamp,Electronics,3,2022-09-23 15:15:27,850,2550,46-55,Male,Credit Card,Jordan,Rodriguez
+374,375,Water Bottle,Clothing,4,2022-10-01 12:58:34,700,2800,18-25,Female,Cash,Jamie,Rodriguez
+375,376,Camera,Clothing,4,2022-08-24 10:03:35,900,3600,36-45,Male,Cash,Taylor,Rodriguez
+376,377,Umbrella,Electronics,3,2022-10-12 07:07:46,850,2550,56+,Female,Online Wallet,Quinn,Smith
+377,378,Camera,Groceries,4,2022-12-26 02:23:20,300,1200,56+,Male,Cash,Riley,Wilson
+378,379,Watch,Stationery,3,2022-05-05 06:33:08,250,750,36-45,Male,Credit Card,Jamie,Brown
+379,380,Dress,Clothing,2,2022-03-03 14:22:53,900,1800,26-35,Female,Credit Card,Peyton,Jones
+380,381,T-shirt,Clothing,5,2022-03-08 05:23:13,800,4000,56+,Male,Online Wallet,Jordan,Wilson
+381,382,Pen,Groceries,5,2022-12-21 19:47:35,650,3250,46-55,Female,Cash,Morgan,Miller
+382,383,Water Bottle,Stationery,3,2022-02-13 15:21:14,650,1950,56+,Male,Online Wallet,Jamie,Williams
+383,384,Laptop,Clothing,5,2022-09-03 22:31:50,950,4750,18-25,Male,Cash,Riley,Williams
+384,385,Pen,Stationery,5,2022-09-03 06:13:58,300,1500,56+,Male,Credit Card,Alex,Garcia
+385,386,Water Bottle,Accessories,4,2022-04-19 00:51:20,400,1600,56+,Female,Cash,Jamie,Miller
+386,387,Watch,Stationery,4,2022-11-28 00:36:35,350,1400,56+,Male,Online Wallet,Quinn,Garcia
+387,388,Umbrella,Accessories,3,2022-01-10 15:37:23,600,1800,26-35,Female,Online Wallet,Avery,Brown
+388,389,Water Bottle,Electronics,2,2022-04-05 00:49:25,1000,2000,46-55,Male,Cash,Avery,Smith
+389,390,Gloves,Clothing,1,2022-09-29 08:58:57,550,550,26-35,Male,Cash,Jordan,Williams
+390,391,Sunglasses,Electronics,4,2022-12-02 22:29:42,1000,4000,56+,Male,Cash,Taylor,Jones
+391,392,Jeans,Clothing,2,2022-11-17 02:42:28,800,1600,26-35,Female,Cash,Quinn,Davis
+392,393,Dress,Electronics,4,2022-12-27 19:45:31,300,1200,56+,Male,Credit Card,Alex,Smith
+393,394,Scarf,Accessories,1,2022-04-21 18:56:44,750,750,36-45,Female,Cash,Jamie,Wilson
+394,395,Headphones,Groceries,4,2022-01-08 01:52:02,150,600,56+,Male,Cash,Jamie,Rodriguez
+395,396,T-shirt,Electronics,1,2022-07-11 03:23:03,150,150,46-55,Male,Credit Card,Alex,Johnson
+396,397,Pen,Groceries,1,2022-03-21 12:04:34,900,900,36-45,Male,Cash,Morgan,Jones
+397,398,Notebook,Accessories,5,2022-04-25 19:03:16,800,4000,18-25,Female,Credit Card,Avery,Davis
+398,399,Camera,Stationery,4,2022-11-26 11:52:49,200,800,26-35,Female,Cash,Casey,Jones
+399,400,Sunglasses,Accessories,2,2022-01-09 06:18:38,150,300,56+,Male,Credit Card,Alex,Garcia
+400,401,Dress,Electronics,4,2022-11-18 12:07:27,500,2000,56+,Male,Cash,Taylor,Brown
+401,402,Scarf,Groceries,4,2022-08-15 17:39:02,250,1000,18-25,Female,Credit Card,Jamie,Smith
+402,403,Umbrella,Stationery,2,2022-09-12 19:39:29,950,1900,26-35,Female,Credit Card,Avery,Wilson
+403,404,Dress,Groceries,5,2022-06-12 06:10:24,700,3500,46-55,Female,Online Wallet,Casey,Smith
+404,405,Desk Lamp,Clothing,2,2022-05-02 21:43:47,500,1000,26-35,Female,Online Wallet,Taylor,Williams
+405,406,Backpack,Groceries,1,2022-12-11 01:30:22,550,550,46-55,Female,Credit Card,Casey,Davis
+406,407,Water Bottle,Accessories,1,2022-02-10 12:53:51,850,850,36-45,Female,Online Wallet,Jordan,Brown
+407,408,Charger,Stationery,5,2022-10-06 11:25:35,250,1250,26-35,Female,Credit Card,Taylor,Garcia
+408,409,Water Bottle,Groceries,2,2022-05-18 06:14:46,600,1200,26-35,Female,Online Wallet,Peyton,Williams
+409,410,Headphones,Groceries,2,2022-07-05 11:40:18,500,1000,36-45,Female,Cash,Riley,Johnson
+410,411,Backpack,Electronics,1,2022-05-02 18:35:25,150,150,46-55,Male,Credit Card,Casey,Davis
+411,412,Dress,Electronics,4,2022-08-20 01:46:29,700,2800,18-25,Male,Credit Card,Quinn,Smith
+412,413,Backpack,Accessories,5,2022-03-08 04:19:03,850,4250,56+,Female,Online Wallet,Riley,Miller
+413,414,Camera,Stationery,2,2022-07-05 18:44:53,250,500,56+,Male,Online Wallet,Alex,Williams
+414,415,Umbrella,Groceries,4,2022-05-29 16:27:58,900,3600,26-35,Male,Online Wallet,Casey,Rodriguez
+415,416,Notebook,Stationery,5,2022-08-19 16:18:24,250,1250,26-35,Male,Credit Card,Alex,Garcia
+416,417,Water Bottle,Accessories,2,2022-06-13 22:32:40,150,300,46-55,Female,Credit Card,Peyton,Jones
+417,418,Watch,Groceries,2,2022-08-08 06:16:51,500,1000,26-35,Male,Online Wallet,Jordan,Jones
+418,419,Charger,Accessories,1,2022-08-08 18:07:06,900,900,26-35,Male,Cash,Alex,Williams
+419,420,Gloves,Clothing,4,2022-07-04 11:44:25,100,400,46-55,Female,Online Wallet,Riley,Williams
+420,421,Dress,Clothing,5,2022-07-19 01:44:50,350,1750,46-55,Female,Credit Card,Riley,Miller
+421,422,Backpack,Groceries,1,2022-03-23 05:13:30,700,700,26-35,Female,Credit Card,Morgan,Garcia
+422,423,Dress,Groceries,5,2022-08-24 11:37:10,800,4000,36-45,Female,Credit Card,Quinn,Rodriguez
+423,424,Dress,Accessories,3,2022-10-22 07:14:13,300,900,36-45,Female,Credit Card,Taylor,Rodriguez
+424,425,Hat,Groceries,5,2022-01-12 22:35:10,150,750,18-25,Male,Cash,Alex,Garcia
+425,426,Laptop,Accessories,4,2022-05-05 16:39:49,700,2800,46-55,Female,Cash,Jordan,Brown
+426,427,Water Bottle,Stationery,2,2022-01-14 12:13:32,1000,2000,56+,Male,Online Wallet,Alex,Williams
+427,428,Charger,Groceries,5,2022-01-21 07:26:15,300,1500,46-55,Female,Online Wallet,Quinn,Miller
+428,429,Jeans,Stationery,2,2022-11-03 22:58:12,900,1800,18-25,Male,Cash,Jordan,Williams
+429,430,Hat,Stationery,5,2022-11-30 06:09:46,600,3000,36-45,Female,Cash,Jamie,Rodriguez
+430,431,Hat,Clothing,2,2022-05-09 20:52:58,150,300,36-45,Male,Cash,Avery,Garcia
+431,432,Backpack,Electronics,1,2022-03-10 13:00:12,400,400,18-25,Male,Credit Card,Avery,Jones
+432,433,Watch,Stationery,5,2022-01-17 09:51:09,100,500,18-25,Male,Credit Card,Avery,Williams
+433,434,Jeans,Accessories,5,2022-08-05 16:38:28,550,2750,56+,Male,Online Wallet,Avery,Davis
+434,435,Water Bottle,Groceries,3,2022-10-28 13:58:21,600,1800,26-35,Male,Credit Card,Quinn,Williams
+435,436,Hat,Stationery,4,2022-12-06 13:32:06,900,3600,26-35,Female,Online Wallet,Jamie,Miller
+436,437,Dress,Accessories,4,2022-08-24 12:53:53,500,2000,46-55,Female,Cash,Avery,Davis
+437,438,Water Bottle,Stationery,5,2022-01-18 08:30:10,350,1750,36-45,Male,Cash,Riley,Williams
+438,439,Headphones,Accessories,1,2022-05-13 16:15:59,250,250,56+,Female,Online Wallet,Peyton,Williams
+439,440,Sunglasses,Groceries,2,2022-10-19 18:04:23,950,1900,36-45,Male,Cash,Casey,Johnson
+440,441,Headphones,Accessories,2,2022-07-08 21:37:22,200,400,56+,Male,Online Wallet,Jamie,Wilson
+441,442,Pen,Clothing,3,2022-07-17 20:17:18,350,1050,26-35,Female,Credit Card,Morgan,Wilson
+442,443,Backpack,Accessories,2,2022-02-21 03:25:24,500,1000,26-35,Female,Cash,Avery,Rodriguez
+443,444,Sneakers,Accessories,4,2022-08-30 08:55:32,200,800,36-45,Female,Cash,Jordan,Brown
+444,445,Umbrella,Stationery,2,2022-09-13 20:41:36,800,1600,18-25,Female,Credit Card,Quinn,Garcia
+445,446,Camera,Stationery,5,2022-04-07 22:14:44,150,750,18-25,Male,Cash,Morgan,Smith
+446,447,Umbrella,Accessories,3,2022-03-30 19:49:43,600,1800,56+,Male,Online Wallet,Casey,Miller
+447,448,Dress,Accessories,3,2022-05-16 05:44:58,250,750,36-45,Female,Online Wallet,Taylor,Wilson
+448,449,Gloves,Accessories,2,2022-04-08 01:27:39,100,200,26-35,Female,Cash,Peyton,Johnson
+449,450,Water Bottle,Electronics,4,2022-07-17 22:01:53,500,2000,36-45,Female,Cash,Casey,Brown
+450,451,Dress,Stationery,2,2022-03-15 19:42:15,750,1500,36-45,Female,Cash,Quinn,Brown
+451,452,Watch,Accessories,1,2022-07-19 09:13:24,700,700,18-25,Female,Online Wallet,Jamie,Jones
+452,453,Backpack,Clothing,2,2022-12-19 13:44:39,850,1700,36-45,Male,Online Wallet,Peyton,Johnson
+453,454,Backpack,Accessories,5,2022-01-08 05:58:18,300,1500,26-35,Male,Cash,Alex,Rodriguez
+454,455,Headphones,Stationery,2,2022-12-07 01:01:43,550,1100,18-25,Female,Credit Card,Morgan,Jones
+455,456,Smartphone,Stationery,1,2022-11-29 06:49:16,400,400,46-55,Male,Online Wallet,Casey,Smith
+456,457,Pen,Groceries,5,2022-12-21 07:22:26,700,3500,18-25,Male,Credit Card,Jordan,Davis
+457,458,Gloves,Accessories,1,2022-04-30 13:19:39,950,950,26-35,Male,Cash,Casey,Rodriguez
+458,459,Sunglasses,Accessories,5,2022-08-23 21:51:46,200,1000,18-25,Female,Credit Card,Riley,Brown
+459,460,Notebook,Stationery,4,2022-01-31 01:46:58,950,3800,36-45,Female,Credit Card,Taylor,Jones
+460,461,Charger,Groceries,5,2022-07-17 21:32:13,500,2500,18-25,Male,Cash,Jamie,Johnson
+461,462,Smartphone,Accessories,4,2022-09-16 15:40:08,850,3400,36-45,Female,Credit Card,Casey,Smith
+462,463,Backpack,Electronics,4,2022-11-21 10:48:40,650,2600,18-25,Male,Online Wallet,Jordan,Johnson
+463,464,Notebook,Electronics,3,2022-11-10 20:51:21,350,1050,56+,Male,Cash,Jordan,Brown
+464,465,Camera,Accessories,4,2022-01-06 09:36:04,950,3800,36-45,Female,Credit Card,Quinn,Jones
+465,466,Sunglasses,Electronics,5,2022-02-16 06:27:20,950,4750,18-25,Male,Cash,Casey,Smith
+466,467,Desk Lamp,Clothing,3,2022-12-02 18:27:05,350,1050,18-25,Female,Cash,Morgan,Wilson
+467,468,Smartphone,Clothing,4,2022-08-19 22:50:49,700,2800,18-25,Female,Online Wallet,Jordan,Brown
+468,469,Laptop,Groceries,2,2022-03-25 05:48:12,900,1800,56+,Male,Credit Card,Avery,Jones
+469,470,Smartphone,Clothing,4,2022-01-06 07:46:04,300,1200,46-55,Female,Online Wallet,Casey,Smith
+470,471,T-shirt,Accessories,3,2022-07-16 05:15:31,600,1800,18-25,Male,Cash,Jamie,Garcia
+471,472,Jeans,Groceries,4,2022-01-30 19:33:52,600,2400,56+,Female,Cash,Avery,Jones
+472,473,T-shirt,Electronics,3,2022-06-04 02:47:35,250,750,36-45,Female,Credit Card,Jordan,Jones
+473,474,Desk Lamp,Accessories,2,2022-02-01 18:48:57,300,600,56+,Male,Cash,Jordan,Brown
+474,475,Hat,Groceries,2,2022-08-19 03:03:35,1000,2000,26-35,Female,Cash,Morgan,Jones
+475,476,Desk Lamp,Stationery,2,2022-07-02 04:42:54,900,1800,18-25,Female,Cash,Alex,Garcia
+476,477,Umbrella,Groceries,5,2022-06-07 00:13:49,750,3750,46-55,Female,Credit Card,Taylor,Rodriguez
+477,478,Sunglasses,Groceries,3,2022-06-17 08:49:16,1000,3000,18-25,Female,Cash,Peyton,Wilson
+478,479,Desk Lamp,Groceries,5,2022-09-03 20:43:02,600,3000,56+,Female,Credit Card,Riley,Davis
+479,480,Hat,Electronics,5,2022-02-10 06:02:46,800,4000,36-45,Male,Cash,Jamie,Brown
+480,481,Sneakers,Clothing,3,2022-12-12 15:57:49,100,300,18-25,Male,Online Wallet,Alex,Garcia
+481,482,Sneakers,Accessories,1,2022-08-28 19:06:56,600,600,18-25,Male,Credit Card,Morgan,Jones
+482,483,Notebook,Clothing,2,2022-01-28 21:51:23,100,200,36-45,Male,Cash,Jordan,Brown
+483,484,Pen,Groceries,5,2022-05-08 15:14:11,300,1500,26-35,Female,Online Wallet,Jordan,Johnson
+484,485,Umbrella,Groceries,3,2022-10-20 16:01:14,1000,3000,36-45,Male,Cash,Alex,Jones
+485,486,Camera,Groceries,4,2022-04-13 07:45:24,550,2200,36-45,Male,Cash,Quinn,Garcia
+486,487,Scarf,Stationery,5,2022-12-14 03:05:13,650,3250,18-25,Female,Online Wallet,Jamie,Davis
+487,488,Watch,Clothing,4,2022-02-15 10:44:24,450,1800,18-25,Female,Cash,Quinn,Rodriguez
+488,489,Pen,Accessories,1,2022-04-12 17:54:12,800,800,56+,Female,Cash,Avery,Davis
+489,490,Water Bottle,Groceries,3,2022-07-23 18:35:00,650,1950,36-45,Male,Credit Card,Avery,Jones
+490,491,Camera,Accessories,5,2022-08-15 00:41:01,900,4500,46-55,Male,Credit Card,Casey,Rodriguez
+491,492,Dress,Clothing,3,2022-10-30 03:38:41,1000,3000,36-45,Male,Cash,Morgan,Davis
+492,493,Scarf,Groceries,1,2022-01-25 20:00:28,150,150,26-35,Female,Credit Card,Jamie,Johnson
+493,494,Desk Lamp,Clothing,1,2022-05-05 01:47:59,550,550,46-55,Male,Credit Card,Jamie,Wilson
+494,495,Headphones,Clothing,1,2022-03-16 12:51:31,450,450,36-45,Male,Online Wallet,Avery,Smith
+495,496,Backpack,Electronics,5,2022-01-14 11:22:54,700,3500,56+,Male,Cash,Casey,Miller
+496,497,Gloves,Electronics,4,2022-11-08 06:14:01,350,1400,56+,Male,Cash,Taylor,Johnson
+497,498,Scarf,Groceries,1,2022-10-15 18:50:14,900,900,26-35,Female,Online Wallet,Alex,Williams
+498,499,Desk Lamp,Electronics,3,2022-12-22 16:04:30,500,1500,56+,Female,Cash,Jamie,Jones
+499,500,Camera,Accessories,5,2022-07-17 03:59:01,900,4500,36-45,Female,Cash,Jordan,Rodriguez
